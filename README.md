@@ -1,2 +1,2 @@
 # classic-problems
-A simple Java take on classic programming problems
+A hopefully simple "Java take" on classic programming problems
