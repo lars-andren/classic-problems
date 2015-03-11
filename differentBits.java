@@ -7,6 +7,6 @@ public int differentBits(int a, int b) {
   int xOR = a ^ b;
   
   String xORInBinary = Integer.toString(xOR, 2);
-
-	return xORInBinary.length() - xORInBinary.replace("1", "").length();
+  
+  return xORInBinary.length() - xORInBinary.replace("1", "").length();
 }
