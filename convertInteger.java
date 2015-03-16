@@ -2,7 +2,7 @@
  * Calculat the number of bits in order to convert integer a to integer b.
  * Could also use StringUtils, if Apache Commons is available.
  */
-public int differentBits(int a, int b) {
+public int convertInteger(int a, int b) {
 
   int xOR = a ^ b;
   
