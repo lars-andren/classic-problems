@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-  void qSort(int[] array, int start, int end) {
+        void qSort(int[] array, int start, int end) {
 		
 		if (start < end) {
 		int partitionIdx = partition(array, start, end);
