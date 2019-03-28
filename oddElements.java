@@ -1,7 +1,7 @@
     /* Returns a set of the Integers that occurred an odd number of times in the input List */
-    public Set<Integer> oddElements(List<Integer> input) throws Exception {
+    public Set<Integer> oddElements(List<Integer> input) {
 
-        HashSet<Integer> set = new HashSet<Integer>();
+        HashSet<Integer> set = new HashSet<>();
         
         for (Integer i: input) {
             if(set.contains(i)) {
